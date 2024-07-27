@@ -77,16 +77,16 @@ export const HACKimg = styled.img`
     flex
     justify-center
     items-center
-    w-40
-    sm:w-72
-    md:w-96
-    lg:w-10/12
+    w-[25rem]
+    sm:w-[35rem]
+    md:w-[30rem]
+    lg:w-[40rem]
     flex-row
     px-2
     gap-3
   `}
   @media (max-width: 320px) {
-    ${tw`w-32`}
+    ${tw`w-[10rem]`}
   }
 `;
 

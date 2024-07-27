@@ -24,7 +24,7 @@ const PreviousStats = () => {
 
   return (
     <SectionContainer>
-      <Heading id='Stats'>Previous Stats</Heading>
+      <Heading id='Stats'>Our Speaker</Heading>
       <SectionContent>
         <SectionImage src={imageUrl} alt='xori' />
         <SectionCards>

@@ -194,11 +194,12 @@ const spin = keyframes`
 `;
 
 export const CustomLogo = styled.div`
-  background: #191c29;
-  width: 68px;
+  // background: #191c29;
+  // width: 68px;
+  width: 118px;
   aspect-ratio: 1;
   position: relative;
-  border-radius: 50%;
+  // border-radius: 50%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -214,14 +215,14 @@ export const CustomLogo = styled.div`
     width: 105%;
     height: 105%;
     border-radius: 50%;
-    background-image: linear-gradient(
-      var(--rotate),
-      #b067ff 24.48%,
-      #02daff 50.52%,
-      #14f195 75.52%,
-      #fecf29
-    );
-    filter: blur(3px);
+    // background-image: linear-gradient(
+    //   var(--rotate),
+    //   #b067ff 24.48%,
+    //   #02daff 50.52%,
+    //   #14f195 75.52%,
+    //   #fecf29
+    // );
+    // filter: blur(3px);
     position: absolute;
     z-index: -1;
     top: -50;

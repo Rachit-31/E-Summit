@@ -41,8 +41,13 @@ const NavBar = () => {
   return (
     <NavContainer scrolled={isScrolled}>
       <CustomLogo className='logo-container'>
-        <img
+        {/* <img
           src='https://res.cloudinary.com/dhnkuonev/image/upload/v1699458313/hnlogo_ei64kd.png'
+          alt='Your Alt Text'
+          className='glow'
+        /> */}
+        <img
+          src='/WhatsApp_Image_2024-07-24_at_18.02.22_24b306f7-removebg-preview.png'
           alt='Your Alt Text'
           className='glow'
         />
