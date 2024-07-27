@@ -18,8 +18,10 @@ import {
   MobileCash,
   MobileSwags,
   MobileMerchandise,
+  DescriptionContent,
 } from './styles';
 import { PrizesContent } from '../../../config';
+import RegisterBtn from '../button/RegisterButton';
 
 const Prizes = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -57,7 +59,7 @@ const Prizes = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
+  const heading= "Register Now"
   return (
     <PrizesContainerWrapper id='Prizes'>
       <PrizesTitle>{PrizesContent.title}</PrizesTitle>
@@ -67,12 +69,14 @@ const Prizes = () => {
               <MobileBox key={item.id} shadowColor={item.prizeShadowColor}>
                 <img src={item.src} alt='Medal' />
                 <MobileDescription>
-                  <MobilePrizes>Total Prize - {item.prizeValue}</MobilePrizes>
+                  <MobilePrizes>{item.eventName}</MobilePrizes>
                   <MobilePrize>
                     <MobileCash>Cash Prize {item.cash}</MobileCash>
                     <MobileSwags>{item.swags}</MobileSwags>
                     <MobileMerchandise>{item.merchandise}</MobileMerchandise>
                   </MobilePrize>
+                  <MobileMerchandise>{item.description}</MobileMerchandise>
+                  <RegisterBtn name={heading}/>
                 </MobileDescription>
               </MobileBox>
             ))
@@ -94,11 +98,13 @@ const Prizes = () => {
                   <img src={item.src} alt='Medal' />
                   {!isMobile && expandedIndex === item.id && (
                     <Description>
-                      <TotalPrizes>Total Prize - {item.prizeValue}</TotalPrizes>
+                      <TotalPrizes>{item.eventName}</TotalPrizes>
                       <PrizeText>
                         <CashPrize>Cash Prize {item.cash}</CashPrize>
                         <Swags>{item.swags}</Swags>
                         <Merchandise>{item.merchandise}</Merchandise>
+                        <DescriptionContent>{item.description}</DescriptionContent>
+                        <RegisterBtn name={heading}/>
                       </PrizeText>
                     </Description>
                   )}

@@ -70,7 +70,7 @@ export const TotalPrizes = styled(Heading1)`
 
 export const Box = styled.div`
   max-width: 400px;
-  height: ${(props) => (props.expanded ? '546px' : '360px')};
+  height: ${(props) => (props.expanded ? '690px' : '360px')};
   border-radius: 10px;
   background: #272727;
   margin: 20px;
@@ -183,6 +183,14 @@ export const Merchandise = styled(Body1)`
     font-size: 14px;
   }
 `;
+export const DescriptionContent = styled(Body1)`
+  color: white;
+  text-align: justify;
+  font-size: 12px;
+  @media (max-width: ${smallScreen}) {
+    font-size: 12px;
+  }
+`;
 
 // Mobile Card Stars here
 export const MobileBox = styled.div`
@@ -253,5 +261,10 @@ export const MobileSwags = styled.div`
 export const MobileMerchandise = styled.div`
   color: var(--color-primary-green);
   text-align: center;
+  font-size: 14px;
+`;
+export const MobDescriptionContent = styled.div`
+  color: white;
+  text-align: justify;
   font-size: 14px;
 `;
