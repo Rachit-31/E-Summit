@@ -44,5 +44,47 @@ export default {
       description:'The Summer Tech Fest 2024 is a three-day conference bringing together technology enthusiasts, industry experts, and innovators to explore the latest trends in AI, blockchain, and cybersecurity. Attendees will engage in insightful workshops, keynote sessions, and networking opportunities. The event aims to foster collaboration and inspire advancements in the tech industry.',
       registerLink:'#',
     },
+    {
+      id: '4',
+      cash: '10k',
+      swags: 'swags',
+      merchandise: 'official merchandise',
+      src:
+        'https://res.cloudinary.com/dzxgf75bh/image' +
+        '/upload/v1702202203/HackNitr/Prizes%20section/vmlqilkrfh9e7aa2gjd0.png',
+      alt: 'Bronze Prize Image',
+      eventName: 'Event 3',
+      prizeShadowColor: 'var(--color-primary-purple)',
+      description:'The Summer Tech Fest 2024 is a three-day conference bringing together technology enthusiasts, industry experts, and innovators to explore the latest trends in AI, blockchain, and cybersecurity. Attendees will engage in insightful workshops, keynote sessions, and networking opportunities. The event aims to foster collaboration and inspire advancements in the tech industry.',
+      registerLink:'#',
+    },
+    {
+      id: '5',
+      cash: '10k',
+      swags: 'swags',
+      merchandise: 'official merchandise',
+      src:
+        'https://res.cloudinary.com/dzxgf75bh/image' +
+        '/upload/v1702202203/HackNitr/Prizes%20section/vmlqilkrfh9e7aa2gjd0.png',
+      alt: 'Bronze Prize Image',
+      eventName: 'Event 3',
+      prizeShadowColor: 'var(--color-primary-purple)',
+      description:'The Summer Tech Fest 2024 is a three-day conference bringing together technology enthusiasts, industry experts, and innovators to explore the latest trends in AI, blockchain, and cybersecurity. Attendees will engage in insightful workshops, keynote sessions, and networking opportunities. The event aims to foster collaboration and inspire advancements in the tech industry.',
+      registerLink:'#',
+    },
+    {
+      id: '6',
+      cash: '10k',
+      swags: 'swags',
+      merchandise: 'official merchandise',
+      src:
+        'https://res.cloudinary.com/dzxgf75bh/image' +
+        '/upload/v1702202203/HackNitr/Prizes%20section/vmlqilkrfh9e7aa2gjd0.png',
+      alt: 'Bronze Prize Image',
+      eventName: 'Event 3',
+      prizeShadowColor: 'var(--color-primary-purple)',
+      description:'The Summer Tech Fest 2024 is a three-day conference bringing together technology enthusiasts, industry experts, and innovators to explore the latest trends in AI, blockchain, and cybersecurity. Attendees will engage in insightful workshops, keynote sessions, and networking opportunities. The event aims to foster collaboration and inspire advancements in the tech industry.',
+      registerLink:'#',
+    },
   ],
 };

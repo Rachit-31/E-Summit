@@ -70,7 +70,7 @@ export const TotalPrizes = styled(Heading1)`
 
 export const Box = styled.div`
   max-width: 400px;
-  height: ${(props) => (props.expanded ? '690px' : '360px')};
+  height: ${(props) => (props.expanded ? 'fit-content' : '360px')};
   border-radius: 10px;
   background: #272727;
   margin: 20px;
